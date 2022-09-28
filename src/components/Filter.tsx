@@ -8,7 +8,7 @@ import {visiableFilter} from "../contants";
 export const Filter = () => {
     const dispatch = useDispatch();
     return (
-        <Container centerContent>
+        <Container centerContent marginTop={5}>
             <Tabs>
                 <TabList>
                     {Object.keys(visiableFilter).map((filterkey: string) => {

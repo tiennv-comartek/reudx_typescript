@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { AddTodo } from './components/AddTodo';
 import { Container,Heading } from '@chakra-ui/react';
 import { TodoList } from './components/TodoList';
@@ -10,8 +10,9 @@ function App() {
    <Container maxW="container.sm" >
       <Heading my="4">TodoList</Heading>
       <AddTodo />
+       <Filter/>
       <TodoList />
-      <Filter/>
+     
     </Container>
   );
 }
